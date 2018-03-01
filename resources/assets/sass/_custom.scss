@@ -1,0 +1,782 @@
+body{
+
+  background-image: url('/images/antwerp-back.jpg') !important;
+  background-repeat: no-repeat; background-size: cover;
+  font-family: 'Raleway', sans-serif;
+
+}
+.jumbotron{
+  background-color: rgba(280, 280, 280, 0.9) !important;
+  //padding-top: 0px !important;
+  padding-bottom:120px !important;
+
+}
+.navbar-collapse{
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar{
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  border: none !important;
+  background-image: url("/images/rain.jpeg") !important;
+  z-index: 2 !important;
+  //filter: opacity(0.5);
+
+
+
+}
+.navbar-header{
+
+height: 80px !important;
+}
+
+.navbar-nav li a{
+  color: black !important;
+  margin-top: 20px;
+    font-size: 16pt !important;
+    margin-left: 50px !important;
+    font-weight: bold !important;
+
+
+}
+
+.navbar-nav li a:hover{
+
+  margin-top: 20px;
+    font-size: 16pt !important;
+    border-bottom: 20px white !important;
+
+}
+.navbar-toggle{
+top: 30px !important;
+background-color:     black !important;
+
+}
+.logo{
+
+max-width: 200px;
+max-height: 275px;
+position: absolute;
+left:25px;
+top: 10px;
+//transition: 1s;
+}
+
+.logo:hover{
+
+
+}
+@media screen and (max-width: 680px){
+  .logo{
+    max-width: 100px;
+  }
+}
+
+
+.cool-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    background: rgba(133, 208, 255, 0.8);
+    transition: width .1s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+
+#portrait{
+  float: right;
+  margin-right: 20px;
+   width:420px;
+   display:flex;
+   justify-content:flex-end;
+   border-radius: 5px;
+   border: 5px solid white;
+   box-shadow: -10px 0px 20px grey;
+}
+
+ul { list-style: none;
+}
+.foot-link {
+    text-decoration: none !important;
+    color: black;
+}
+.foot-link:hover{
+  color: white;
+
+  cursor: pointer;
+}
+.footer{
+background-color: rgba(204, 204, 204, 0.8) !important;
+height: 300px;
+}
+
+.foot-list{
+position: absolute;
+left: 1200px;
+font-size: 16pt;
+padding-bottom: 5px;
+}
+@media screen and (max-width: 480px){
+
+  .foot-list{
+
+  left: 0px;
+  font-size: 12pt;
+  }
+}
+
+.foot-text{
+  position: absolute;
+  left:100px;
+
+  padding: 5px;
+}
+.foot-text p b{
+  font-size:18pt;
+}
+
+@media screen and (max-width: 480px){
+
+  .foot-text{
+  border-style:solid ;
+  border-width: 0.5px;
+
+  left: 120px;
+  }
+}
+@media screen and (max-width: 480px){
+  .foot-text p b{
+    font-size:12pt;
+  }
+}
+
+.clean-info{
+//text-align: center;
+margin-left: 10%;
+//width: 50% !important;
+//background-color: rgba(100, 100, 100, 0.096);
+border-radius: 10px;
+justify-content: center;
+//display: flex;
+//flex-wrap: wrap;
+
+
+
+}
+.clean-info a{
+  cursor: pointer;
+    text-decoration: none !important;
+
+font-weight: bold;
+color: #000;
+ // text-shadow: 	  	-0.6px -0.6px 0 #fff,
+ //                     0.6px -0.6px 0 #fff,
+ //                    -0.6px 0.6px 0 #fff,
+ //                     0.6px 0.6px 0 #fff;
+                     transition: 0.2s;
+
+//text-align: center;
+
+}
+.clean-info a:hover{
+  color: lightseagreen;
+ text-shadow: 	  	-0.6px -0.6px 0 lightblue,
+                     0.6px -0.6px 0 lightblue,
+                    -0.6px 0.6px 0 lightblue,
+                     0.6px 0.6px 0 lightblue;
+
+
+}
+.clean-info img{
+padding: 5px;
+border-radius:10%;
+
+}
+.clean-info img:hover{
+
+transition: 0.7s;
+}
+
+
+
+.clean-info h3{
+font-size: 16pt;
+
+
+}
+
+
+.cleaner img {
+  margin-top: 5%;
+  margin-left: 5%;
+
+
+}
+.cleaner{
+    margin-top:-5%;
+    margin-left: -5.5%;
+ -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+
+}
+
+#public {
+  position: absolute;
+  top: 520px;
+  left: 12.0%;
+padding: 7px;
+z-index: 2;
+font-size: 20pt;
+background: rgba(255, 255, 255, 0.81);
+border-radius: 5px;
+}
+
+#residential {
+  position: absolute;
+  top: 520px;
+  left: 43.1%;
+  padding: 7px;
+
+  z-index: 2;
+  font-size: 20pt;
+  background: rgba(255, 255, 255, 0.81);
+  border-radius: 5px;
+}
+#hospitality {
+  position: absolute;
+  top: 520px;
+  left: 73.0%;
+  padding: 7px;
+  z-index: 2;
+  font-size: 20pt;
+  background: rgba(255, 255, 255, 0.81);
+  border-radius: 5px;
+}
+#retail {
+  position: absolute;
+  top: 901px;
+  left: 12.5%;
+  padding: 7px;
+
+z-index: 2;
+font-size: 20pt;
+background: rgba(255, 255, 255, 0.81);
+border-radius: 5px;
+}
+#other {
+  position: absolute;
+  top: 930px;
+  left: 41.6%;
+  padding: 7px;
+
+  z-index: 2;
+  font-size: 20pt;
+  background: rgba(255, 255, 255, 0.81);
+  border-radius: 5px;
+}
+
+.service-image{
+  transition: 1s;
+  width:370px;
+  height: 340px;
+}
+.service-image:hover {
+ transform: scale(1.1);
+}
+@media screen and (max-width: 1403px) {
+ #public {
+   top: 500px;
+  left: 20%;
+  font-size: 20pt;}
+
+ #residential {
+
+   top: 870px;
+   left: 20%;
+   font-size: 20pt;
+
+ }
+
+ #hospitality {
+   top: 1220px;
+   left: 20%;
+   font-size: 20pt;
+}
+
+ #retail {
+   top: 1570px;
+   left: 20%;
+   font-size: 20pt;  }
+
+ #other {
+   top: 1950px;
+   left: 18%;
+   font-size: 20pt;  }
+}
+
+#fade{
+   opacity:0;
+   /* make things invisible upon start */
+
+   -webkit-animation:fadeIn ease-in 1;
+   /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+   -moz-animation:fadeIn ease-in 1;
+   animation:fadeIn ease-in 1;
+   -webkit-animation-fill-mode:forwards;
+   /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+   -moz-animation-fill-mode:forwards;
+   animation-fill-mode:forwards;
+   -webkit-animation-duration:1.2s;
+   -moz-animation-duration:1.2s;
+   animation-duration:1.2s;
+}
+
+
+.form-control{
+
+  resize: none !important;
+}
+
+
+
+.about{
+
+padding: 12rem;
+padding-top: 5rem;
+line-height: 30px;
+
+
+
+}
+
+@media screen and (max-width: 480px){
+  .about{
+
+    padding: 6rem;
+    padding-top: 5rem;
+
+
+    }
+
+}
+
+.about-list::before{
+  content: "\2022"; color: rgba(206, 57, 57, 0.925); display: inline-block; width: 1em;
+  margin-left: -1em
+
+}
+
+.about-list{
+  padding: 5px;
+}
+.about-list:hover{
+  cursor: pointer;
+  background-color: rgba(99, 131, 200, 0.66);
+  border-radius: 5px;
+  width: 500px;
+}
+
+.type-list::before{
+  content: "\2022"; color: rgba(206, 57, 57, 0.925); display: inline-block; width: 1em;
+  margin-left: -1em
+
+}
+
+.type-list{
+  padding: 5px;
+}
+
+
+.mySlides {display:none;}
+
+.lady {min-height:800px;
+max-height:1100px;}
+
+@media screen and (max-width: 680px){
+  .lady {
+    min-height:500px;
+  max-height:500px;}
+}
+
+.front-text{
+  color: whitesmoke;
+  font-size: 72pt !important;
+  font-weight: 600;
+  text-shadow: 	  	-1px -1px 0px whitesmoke,
+                     1px -1px 0px whitesmoke,
+                    -1px 1px 0px whitesmoke,
+                     1px 1px 0px whitesmoke;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+                     transition: 1s;
+
+        animation:colorchange 50000ms infinite alternate;
+      //  animation-timing-function: ease-in-out;
+
+
+        z-index: 1;
+
+}
+.front-text:hover{
+  //color: whitesmoke;
+ letter-spacing: 1px;
+    text-shadow: 	  	-1px -1px 0px whitesmoke,
+                     1px -1px 0px whitesmoke,
+                    -1px 1px 0px whitesmoke,
+                     1px 1px 0px whitesmoke;
+                     cursor: pointer;
+}
+.front-button{
+
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-color: rgb(77, 177, 80); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16pt;
+  font-weight: bold;
+  z-index: 1;
+
+}
+
+.front-button:hover
+{
+
+
+  transition: 1s;
+  text-decoration: none;
+color: white;
+text-shadow:  	-1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;
+background-color: rgb(77, 204, 81);
+box-shadow:0px 10px 22px #000;
+}
+
+.front-button-service {
+  position: relative;
+  margin-top: 5%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-color: rgb(77, 177, 80);
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16pt;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.front-button-service:hover {
+  text-decoration: none;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-color: rgb(77, 204, 81);
+  box-shadow: 0px 10px 22px #000;
+}
+
+@media screen and (max-width: 680px){
+  .front-text{
+    font-size: 42pt !important;
+  }
+  .front-button{
+  font-size: 12pt;
+  top: 88%;
+  padding: 5px 12px;
+
+
+
+  }
+    .front-button-service {
+      font-size: 12pt;
+  top: 100%;
+  padding: 5px 12px;
+
+
+    }
+
+}
+          @media screen and(max-width: 720px){
+            .contactCol{
+position: relative;
+              width:500px;
+            margin-left: 4% !important;
+            margin-top: 0%;
+
+            }
+
+          }
+.contactCol{
+
+  width:500px;
+margin-left: 34%;
+margin-top: 0%;
+
+}
+
+textarea{
+  max-height: 100px;
+}
+
+.public-ul{
+
+  font-size:18pt;margin-left:600px;margin-top:50px;
+}
+.h1-public{
+  text-align:center;
+   font-weight:bolder;
+}
+
+@media screen and (max-width: 720px){
+  .public-ul{
+  font-size:12pt !important;
+  margin-left: 10px !important;
+  margin-top: 8% !important;
+
+  }
+  .h1-public{
+    margin-top: 15%;
+  }
+}
+
+    @keyframes colorchange {
+      0% {
+
+        color: rgb(0, 0, 0);
+
+      }
+
+      10% {
+        color: rgb(49, 49, 49);
+
+      }
+
+      20% {
+        color: rgb(49, 49, 49);
+
+      }
+
+      30% {
+        color: rgb(73, 73, 73);
+
+      }
+
+      40% {
+        color: rgb(80, 80, 80);
+
+      }
+
+      50% {
+        color: rgb(97, 97, 97);
+
+      }
+
+      60% {
+
+        color: rgb(110, 110, 110);
+      }
+
+      70% {
+
+        color: rgb(124, 124, 124);
+      }
+
+      80% {
+        color: rgb(189, 189, 189);
+
+      }
+        90% {
+          color: rgb(233, 233, 233);
+      }
+
+      100% {
+
+        color: rgb(247, 247, 247);
+
+
+      }
+
+    }
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hotel{
+
+  position: absolute;
+  left: 20%;
+  border-radius: 10%;
+}
+@media screen and (max-width:720px) {
+  .hotel {
+    position: relative;
+    left: 20%;
+    border-radius: 10%;
+    width: 200px !important;
+    height: 200px !important;
+
+  }
+
+}
+
+.packageDeal{
+margin-left:650px;
+width: 700px;
+
+}
+
+@media screen and (max-width:720px) {
+  svg{
+    top: 120px !important;
+  }
+}
+
+svg{
+position: absolute;
+top: -140px;
+
+}
+
+path {
+
+  fill:  rgba(255, 255, 255, 1);
+
+  stroke:#000;
+  stroke-dasharray: 500;
+  animation:animation 7s 1 ease-in-out;
+   animation-fill-mode: forwards;
+
+
+}
+path:hover{
+  fill:  rgba(255, 255, 255, 1);
+
+  stroke:#000;
+  stroke-dasharray: 500;
+  animation:animationHover 3s 1 ease-in-out;
+   animation-fill-mode: forwards;
+}
+
+
+@keyframes animation {
+          0%{
+                    stroke-dashoffset:0;
+          }
+
+          20%{
+            fill:rgba(255, 255, 255, 0.3);
+          }
+          50%{
+                    stroke-dashoffset: 500;
+                    fill:rgba(255, 255, 255, 0.5);
+
+                    }
+                    70%{
+                      fill:rgba(255, 255, 255, 0.8);
+
+                    }
+           100%{
+                      stroke-dashoffset:0;
+                      fill:rgba(255, 255, 255, 1);
+
+
+                              }
+}
+
+@keyframes animationHover {
+          0%{
+                    stroke-dashoffset:0;
+          }
+
+          20%{
+            fill:rgba(255, 255, 255, 0.3);
+          }
+          50%{
+                    stroke-dashoffset: 500;
+                    fill:rgba(255, 255, 255, 0.5);
+
+                    }
+                    70%{
+                      fill:rgba(255, 255, 255, 0.8);
+
+                    }
+           100%{
+                      stroke-dashoffset:0;
+                      fill:rgba(255, 255, 255, 1);
+
+
+                              }
+}
+
+.crewContain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  flex: 1 50%;
+
+  align-self: center;
+  padding-top: 3.5em;
+  padding-bottom: 2.5em;
+  margin: 0;
+
+
+}
+
+.crew{
+
+   width: 120%;
+}
