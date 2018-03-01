@@ -1,1 +1,1 @@
-<p align="center"><img src="public/images/Anca-crew.png"></p>
+<p align="center"><img src="public/images/Anca-Crew.png"></p>
